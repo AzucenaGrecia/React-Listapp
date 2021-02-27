@@ -5,7 +5,7 @@ import Main from './pages/Main';
 import Welcome from './pages/Welcome';
 
 function App() {
-  const [page, setPage] = useState("home")
+  const [page, setPage] = useState("welcome")
 
   let currentPage = null; 
 

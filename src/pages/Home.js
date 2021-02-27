@@ -2,6 +2,9 @@ import react from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPencilAlt } from "@fortawesome/free-solid-svg-icons";
 import "./Home.css";
+import Button from "../components/button";
+
+
 export default function Home() {
   const element = <FontAwesomeIcon className="icon-size" icon={faPencilAlt} />;
 
@@ -12,7 +15,7 @@ export default function Home() {
         <h2>
           Welcome to <br /> listable
         </h2>
-        <button>Next</button>
+        <Button />
       </div>
     </main>
   );

@@ -1,0 +1,47 @@
+.welcome{
+  height: 100vh;
+  width: 100vw;
+}
+
+.welcome-container{
+  padding: 150px 67px;
+}
+
+.welcome-title{
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.welcome-title h2{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  color: #262626;
+  margin-left: 12px;
+  margin-bottom: 26px;
+}
+
+.welcome-quote{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.quote{
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  text-justify: distribute;
+  margin-bottom: 10px;
+}
+
+.author{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+}
