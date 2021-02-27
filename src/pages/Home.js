@@ -2,7 +2,7 @@ import react from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPencilAlt } from "@fortawesome/free-solid-svg-icons";
 import "./Home.css";
-import Button from "../components/button";
+import Button from "../components/UI/Buttons/button";
 
 
 export default function Home({ goto }) {
