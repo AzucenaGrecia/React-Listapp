@@ -5,7 +5,7 @@ import "./Home.css";
 import Button from "../components/button";
 
 
-export default function Home() {
+export default function Home({ goto }) {
   const element = <FontAwesomeIcon className="icon-size" icon={faPencilAlt} />;
 
   return (
@@ -15,7 +15,7 @@ export default function Home() {
         <h2>
           Welcome to <br /> listable
         </h2>
-        <Button />
+        <Button title="next" onPress={() => goto("welcome")}/>
       </div>
     </main>
   );

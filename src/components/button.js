@@ -1,5 +1,5 @@
 import "./button.css";
 
-export default function Button() {
-  return <button className="button button-home">Next</button>;
+export default function Button({ onPress, title }) {
+  return <button onClick={onPress} className="button">{title}</button>;
 }

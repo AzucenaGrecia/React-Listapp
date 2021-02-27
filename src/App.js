@@ -1,29 +1,27 @@
-import { useState } from 'react';
-import './App.css';
-import Home from './pages/Home';
-import Main from './pages/Main';
-import Welcome from './pages/Welcome';
+import { useState } from "react";
+import "./App.css";
+import Home from "./pages/Home";
+import Main from "./pages/Main";
+import Welcome from "./pages/Welcome";
 
 function App() {
-  const [page, setPage] = useState("welcome")
+  const [page, setPage] = useState("home");
 
-  let currentPage = null; 
+  let currentPage = null;
 
-  switch(page){
-    case "home": 
-      currentPage = < Home goto={setPage}/>;
+  switch (page) {
+    case "home":
+      currentPage = <Home goto={setPage} />;
       break;
     case "welcome":
-      currentPage = < Welcome goto={setPage}/>
+      currentPage = <Welcome goto={setPage} />;
       break;
     case "main":
-      currentPage = < Main goto={setPage}/>
-      break;   
+      currentPage = <Main />;
+      break;
   }
 
-  return (
-    <div className="App">{currentPage}</div>
-  );
+  return <div className="App">{currentPage}</div>;
 }
 
 export default App;

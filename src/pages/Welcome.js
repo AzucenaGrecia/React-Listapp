@@ -4,7 +4,7 @@ import { faPencilAlt } from "@fortawesome/free-solid-svg-icons";
 import Button from "../components/button";
 import "./Welcome.css"
 
-export default function Welcome(){
+export default function Welcome({ goto }){
   const element = <FontAwesomeIcon className="icon-size-medium" icon={faPencilAlt} />;
 
   return (
@@ -22,7 +22,7 @@ export default function Welcome(){
           <figcaption className="author">- Patti Digh</figcaption>
         </blockquote>
 
-        <Button/>
+        <Button title="Start Here" onPress={()=>goto("main")}/>
       </div>
     </main>
     );
