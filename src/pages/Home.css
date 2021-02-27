@@ -1,0 +1,16 @@
+.home{
+  height: 100vh;
+  width: 100vw;
+}
+
+.home-container{
+  padding: 150px 67px;
+}
+
+.home-container h2{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  margin: 20px 0px;
+}
