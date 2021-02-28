@@ -12,6 +12,18 @@ export default function AddForm (){
           <label>Category</label>
           <input type="text" placeholder="English Classes"></input>
         </div>
+        
+        <footer className="add-form__footer">
+          <a
+            className="link"
+            href="#cancel"
+          >
+            Cancel
+          </a>
+          <button type="submit" className="link">
+            Add new Todo
+          </button>
+        </footer>
       </div>
     </form>
   );
