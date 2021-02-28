@@ -1,0 +1,18 @@
+.main-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+.main-footer button {
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: #2962ff;
+  font-size: 12px;
+}
