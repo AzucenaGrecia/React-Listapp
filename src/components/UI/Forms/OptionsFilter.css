@@ -1,0 +1,17 @@
+.options-form__container{
+  border: 1px solid magenta;
+  padding: 9px 16px 0px 16px;
+}
+.options-form__opiton{
+  display: flex;
+  margin-bottom: 8px;
+}
+.options-form__opiton span{
+  margin-right: 16px;
+}
+.options-form__opiton input{
+  margin-right: 8px;
+}
+.options-form__opiton label{
+  margin-right: 8px;
+}
