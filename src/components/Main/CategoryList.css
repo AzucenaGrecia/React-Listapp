@@ -1,11 +1,10 @@
 .categoryList__container{
   overflow-y: scroll;
   width: 100%;
-  height: 200px;
+  height: 500px;
   z-index: 1;
   position: relative;
   top: 120px;
-  /* border: 1px solid red; */
 }
 
 .categoryList{

@@ -10,7 +10,7 @@ export default function Main() {
     <>
       <Header />
       <OptionsFilter />
-      < CategoryList />
+      <CategoryList />
       <AddForm />
       <Footer />
     </>
